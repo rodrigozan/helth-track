@@ -1,52 +1,14 @@
 git status
 
-git add index.html
-
-git status
-
-git add sucesso.html git-info.txt 
-
-git status 
-
-git add blog/
-
-git status
-
-git add dashboard/
-
-git status 
-
-git add README.md 
-
-git add assets/
-
-git status
+git add .
 
 git commit -m "Commit Inicial do Projeto Health Track"
-
-git add git-info.txt
-
-git commit -m "Atualização do git-info com comandos Git"
 
 git remote add origin https://github.com/rodrigozan/helth-track.git
 
 git push origin master
 
-git add README.md 
-
-git commit -m "Update README.md"
-
-git add git-info.txt
-
-git commit -m "Update git-info.txt com comandos git"
-
-git status
-
-git log
-
 git tag v1
 
 git log
-
-git push origin master
 
