@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEALTH TRACK</title>
+    <link rel="stylesheet" href="./assets/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap-icons-1.5.0/bootstrap-icons.css">
+    <link href="./assets/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body class="text-center">
+  <video autoplay muted loop id="video-ioga">
+    <source src="./assets/video/ioga2.mp4" type="video/mp4">
+  </video>
+  <header id="header-main">
+    <div class="overlay d-flex justify-content-center align-items-center">
+      <nav id="nav-main-menu" class="navbar fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/#">HEALTH TRACK</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="text-white">
+              <i class="fas fa-bars"></i>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/#">Home</a> 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Sobre Nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/blog/">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/dashboard/"><i class="bi bi-person-circle"></i> Conta</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="slide-text" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div data-aos="fade-up" data-aos-anchor-placement="top-center">
+              <h1>Sua saúde é nosso bem mais precioso<br>
+              aqui no <strong>HEALTH TRACK</strong></h1>
+              <a href="#about" type="button" class="btn btn-header btn-light me-2">Saiba mais</a>
+              <button type="button" class="btn btn-header btn-hd-register text-white" data-bs-toggle="modal" data-bs-target="#modalRegister">Cadastre-se</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div data-aos="fade-up" data-aos-anchor-placement="top-center">
+              <h1>Já tem um conta?<br>
+              Então basta fazer login:</h1>
+              <button type="button" class="btn btn-header btn-hd-register text-white" data-bs-toggle="modal" data-bs-target="#modalLogin">Entrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main id="about">
+      <div class="container">
+        <h2>Sobre o HEALTH TRACK</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <h3>O que podemos fazer por <strong>você</strong>:</h3>
+        <div class="row">
+          <div class="col-md-5 text-start">
+            <div data-aos="fade-left">
+              <h5>
+                <span class="icon-circle rounded-circle me-3"><i class="fas fa-walking"></i></span> 
+                <span class="fs-3">Contador de calorias</span>
+              </h5>
+            <p>Lorem Spum bla bla bla Lorem Spum bla bla bla Lorem Spum bla bla bla Lorem Spum bla bla bla </p>
+            </div>
+            <div data-aos="fade-left">
+              <h5>
+              <span class="icon-circle rounded-circle me-3"><i class="bi bi-calculator"></i></span> 
+              <span class="fs-3">Calculadora IMC</span>
+            </h5>
+            <p>Lorem Spum bla bla bla Lorem Spum bla bla bla Lorem Spum bla bla bla Lorem Spum bla bla bla </p>
+            </div>
+            <div data-aos="fade-left">
+              <h5>
+                <span class="icon-circle rounded-circle me-3"><i class="fas fa-user-md"></i></span> 
+                <span class="fs-3">Dicas de especialistas</span>
+              </h5>
+            <p>Lorem Spum bla bla bla Lorem Spum bla bla bla Lorem Spum bla bla bla Lorem Spum bla bla bla </p>
+            </div>
+          </div>
+          <div class="col-md-5 offset-md-2 text-end" data-aos="fade-up-right">
+            <div data-aos="fade-right">
+              <h5>
+                <span class="fs-3">Sugestões de refeições</span>
+                <span class="icon-circle rounded-circle ms-3"><i class="fas fa-utensils"></i></span> 
+              </h5>
+              <p>Lorem Spum bla bla bla Lorem Spum bla bla bla Lorem Spum bla bla bla Lorem Spum bla bla bla </p>
+            </div>
+            <div data-aos="fade-right">
+              <h5>
+                <span class="fs-3">Lista de exercícios</span>
+                <span class="icon-circle rounded-circle ms-3"><i class="fas fa-running"></i></span> 
+              </h5>
+              <p>Lorem Spum bla bla bla Lorem Spum bla bla bla Lorem Spum bla bla bla Lorem Spum bla bla bla </p>
+            </div>
+            <div data-aos="fade-right">
+              <h5>
+                <span class="fs-3">Convênios</span>
+                <span class="icon-circle rounded-circle ms-3"><i class="fas fa-portrait"></i></span> 
+              </h5>
+            <p>Lorem Spum bla bla bla Lorem Spum bla bla bla Lorem Spum bla bla bla Lorem Spum bla bla bla </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </main>
+  <section id="counters" class="pb-4 pt-4 text-center">
+    <div class="container text-white fs-2">
+        <div class="row">
+          <div class="d-flex justify-content-center">
+            <div class="col-md-3" data-aos="zoom-in">
+              <div class="outer-circle">
+                  <div class="icons"><i class="fas fa-download"></i></div>
+              </div>
+              <div class="contador" data-target="1500">1500</div>
+              <p>Downloads</p>
+            </div>
+            <div class="col-md-3" data-aos="zoom-in">
+              <div class="outer-circle">
+                  <div class="icons"><i class="fas fa-running"></i></div>
+              </div>
+              <div class="contador" data-target="5">5</div>
+              <p>Serviços</p>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center">
+            <div class="col-md-3" data-aos="zoom-out">
+              <div class="outer-circle">
+                  <div class="icons"><i class="fas fa-portrait"></i></div>
+              </div>
+              <div class="contador" data-target="12">12</div>
+              <p>Parcerias</p>
+            </div>
+            <div class="col-md-3" data-aos="zoom-out">
+              <div class="outer-circle">
+                  <div class="icons"><i class="fas fa-users"></i></div>
+              </div>
+              <div class="contador" data-target="1200">1200</div>
+              <p>Usuários</p>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+  <!--
+  <section id="places">
+    <div class="container">
+        <div class="row">
+            <h2>Estabelecimentos Conveniados</h2>
+              USAR MODAL PARA ABRIR O MAPA DOS ESTABELECIMENTOS 
+            <figure class="figure col-md-3">
+                <img src="./assets/img/posts.png" class="figure-img img-fluid rounded" alt="...">
+                <figcaption class="figure-caption">A caption for the above image.<br><strong>Estabelecimento: </strong>Farmácia</figcaption>
+            </figure>
+            <figure class="figure col-md-3">
+                <img src="./assets/img/posts.png" class="figure-img img-fluid rounded" alt="...">
+                <figcaption class="figure-caption">A caption for the above image.<br><strong>Estabelecimento: </strong>Pronto-socorro</figcaption>
+            </figure>
+            <figure class="figure col-md-3">
+                <img src="./assets/img/posts.png" class="figure-img img-fluid rounded" alt="...">
+                <figcaption class="figure-caption">A caption for the above image.<br><strong>Estabelecimento: </strong>Farmácia</figcaption>
+            </figure>
+            <figure class="figure col-md-3">
+                <img src="./assets/img/posts.png" class="figure-img img-fluid rounded" alt="...">
+                <figcaption class="figure-caption">A caption for the above image.<br><strong>Estabelecimento: </strong>Academia</figcaption>
+            </figure>
+        </div>
+    </div>
+</section>
+  <section id="services">
+      <h2>Serviços</h2>
+      <div class="container">
+          <div class="row">
+              <div class="card col-md-4">
+                  <img src="./assets/img/posts.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+              </div>
+              <div class="card col-md-4">
+                  <img src="./assets/img/posts.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+              </div>
+              <div class="card col-md-4">
+                  <img src="./assets/img/posts.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+              </div>
+          </div>
+          <div class="row justify-content-md-center">
+              <div class="card col-md-4">
+                  <img src="./assets/img/posts.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+              </div>
+              <div class="card col-md-4">
+                  <img src="./assets/img/posts.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>-->
+  <section id="contact">
+      <div class="container">
+          <div class="row">
+            <h2>Contato</h2>
+            <form action="sucesso.html" id="formHome">
+            <div class="mb-3 row">
+                <label for="nome" class="col-sm-2 col-form-label">Nome:</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="nome">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="email" class="col-sm-2 col-form-label">Email:</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="email">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="assunto" class="col-sm-2 col-form-label">Assunto:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="assunto">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="texto" class="col-sm-2 col-form-label">Texto:</label>
+                <div class="col-sm-10">
+                  <textarea class="form-control" id="texto" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="d-flex justify-content-end">
+              <div class="d-grid col-sm-10">
+                <button class="btn btn-success" type="submit">Enviar</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+  </section>
+  <footer id="footer-main" class="text-center text-white">Copyright by Health Track</footer>
+  <script src="./assets/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/bootstrap/bootstrap-validate/dist/bootstrap-validate.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./assets/js/main.js"></script>
+  <!-- Modal Register -->
+  <div class="modal fade" id="modalRegister" tabindex="-1" aria-labelledby="modalRegister" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalRegister">Cadastre-se</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="/dashboard/" id="modalForm">
+          <div class="input-group mb-3">
+            <label for="formModalNome" class="input-group-text">Nome</label>
+            <input type="text" name="formModalNome" class="form-control" id="formModalNome" placeholder="Digite seu nome">
+          </div>
+          <div class="input-group mb-3">
+            <label for="formModalEmail" class="input-group-text">Email</label>
+            <input type="email" name="formModalEmail" class="form-control" id="formModalEmail" placeholder="Digite seu email. Exemplo: name@example.com">
+          </div>
+          <div class="input-group mb-3">
+            <label for="formModalSenha" class="input-group-text">Senha</label>
+            <input type="password" name="formModalSenha" class="form-control" id="formModalSenha" placeholder="Escolha uma senha">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <div class="d-grid gap-2 col-12 mx-auto">
+            <button type="submit" id="modalCadastrar" type="button" class="btn btn-primary">Cadastrar</button>
+          </div>
+        </div>
+      </form>
+      </div>
+    </div>
+  </div>
+  <!-- /Modal Register -->
+  <!-- Modal Login -->
+  <div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="modalLogin" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalLogin">Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form action="/dashboard/" id="modalForm" class="needs-validate" novalidate action="post">
+          <div class="modal-body">
+            <div class="input-group mb-3">
+              <label for="formModalLoginEmail" class="input-group-text">Email</label>
+              <input type="email" name="formModalLoginEmail" class="form-control" id="formModalLoginEmail" placeholder="Digite seu email. Exemplo: name@example.com" required>
+            </div>
+            <div class="input-group mb-3">
+              <label for="formModalLoginSenha" class="input-group-text">Senha</label>
+              <input type="password" name="formModalLoginSenha" class="form-control" id="formModalLoginSenha" placeholder="Digite sua senha" required>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <div class="d-grid gap-2 col-12 mx-auto">
+              <button type="submit" id="modalCadastrar" type="button" class="btn btn-primary">Entrar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- /Modal Login -->
+</body>
+</html>
